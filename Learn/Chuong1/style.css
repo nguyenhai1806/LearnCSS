@@ -34,61 +34,74 @@ button {
 }
 
 .container {
+  width: 70%;
+  height: 60vh;
   background-color: #e8f3fe;
-  width: 100%;
-  height: 100vh;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 2rem;
+
   display: flex;
   flex-flow: column wrap;
 }
 
 .fmessage {
-  width: 40rem;
-  height: 60rem;
-  background-color: #fff;
-  padding: 3rem 3rem;
+  width: 30rem;
+  height: 40rem;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 10rem;
   border-radius: 2rem;
-  box-shadow: 10px 10px 10px rgba(226, 222, 222, 0.5);
-}
-.fmessage--blue .fmessage__title {
-  color: #1e87f9;
-}
-.fmessage--blue .fmessage__button {
-  background-color: #1e87f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
 }
 .fmessage--pink .fmessage__title {
-  color: #ff3f6f;
+  color: #ffa8b6;
 }
 .fmessage--pink .fmessage__button {
-  background-color: #ff3f6f;
+  background-color: #ffa8b6;
 }
-.fmessage__image {
+.fmessage--orange .fmessage__title {
+  color: #ff5846;
+}
+.fmessage--orange .fmessage__button {
+  background-color: #ff5846;
+}
+.fmessage--green .fmessage__title {
+  color: #20e3b2;
+}
+.fmessage--green .fmessage__button {
+  background-color: #20e3b2;
+}
+.fmessage__img {
   width: 100%;
-  height: 20rem;
+  height: 15rem;
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 1rem;
 }
 .fmessage__title {
-  font-size: 4rem;
-  font-weight: 900;
-  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #20e3b2;
   text-align: center;
+  margin-top: 4rem;
 }
 .fmessage__des {
-  color: #c4c4c5;
-  margin-top: 2rem;
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: gray;
   text-align: justify;
+  margin-top: 2rem;
 }
 .fmessage__button {
   width: 100%;
-  color: #fff;
-  padding: 1.5rem 5rem;
+  padding: 1rem 0;
   border-radius: 1rem;
-  font-weight: 700;
-  display: block;
-  margin-top: 4rem;
-}/*# sourceMappingURL=style.css.map */
+  background-color: #20e3b2;
+  color: white;
+  font-weight: bold;
+  margin-top: 2rem;
+} /*# sourceMappingURL=style.css.map */
